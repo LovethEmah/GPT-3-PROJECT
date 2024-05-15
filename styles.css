@@ -1,0 +1,64 @@
+* {
+    background-color: #040C18;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 30px;
+    padding: 30px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+     
+}
+
+.gpt3 {
+    color: white;
+    font-size: 800;
+    
+}
+
+.signin {
+    color: white;
+    border: none;
+}
+
+.signup {
+    color: white;
+    background-color: red;
+
+}
+
+.links {
+     display: flex;
+     gap: 20px;
+     justify-content: center;
+     align-items: center;
+     list-style: none;
+     text-decoration: none;
+     color: white;
+   
+}
+.signings {
+    display: flex;
+}
+
+.nav-links {
+    display: flex;
+}
+
+.banner_avatar {
+    width: 100%;
+    height: 100%;
+  }
+
+  .e-getstarted {
+    display: flex;
+    width: 100%;
+
+  }
+   
