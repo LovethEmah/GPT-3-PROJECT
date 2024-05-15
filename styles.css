@@ -19,6 +19,7 @@ body {
 .gpt3 {
     color: white;
     font-size: 800;
+    margin: 30px;
     
 }
 
@@ -38,11 +39,24 @@ body {
      gap: 20px;
      justify-content: center;
      align-items: center;
-     list-style: none;
-     text-decoration: none;
      color: white;
    
 }
+
+.links >li {
+    list-style: none;
+   
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+
 .signings {
     display: flex;
 }
