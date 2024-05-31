@@ -22,6 +22,14 @@ body {
      
 }
 
+
+@media screen and (max-width: 450px) {
+  .navigation {
+    flex-direction: column;
+  }
+}
+
+
 .gpt3 {
     color: white;
     font-weight: 800;
@@ -50,6 +58,8 @@ body {
     /* border: solid red; */
     width: 100%;
 }
+
+
 
 .header-banner {
     /* width: 100%; */
@@ -191,6 +201,17 @@ body {
     margin-top: 30px;
   }
 
+  /* .third-part-section-A {
+    width: 50%;
+  }
+
+  .third-part-section-B {
+    width: 50%;
+    display: flex;
+    
+    
+  } */
+
   .avatar-text {
     display: flex;
     align-items: center;
@@ -287,8 +308,16 @@ body {
 
   .third-part {
     display: flex;
-    gap: 60px;
+    gap: 50px;
+    width: 100%;
+    /* display: grid;
+    grid-template-columns: 50% 25% 25%;
+    grid-template-rows: 200px 200px 200px;
+    column-gap: 30px; */
+     
+     
     margin-top: 50px;
+   
   }
 
   .thefuture {
@@ -299,6 +328,7 @@ body {
 
   .alphabets {
     color: white;
+     
   }
 
 
@@ -368,19 +398,46 @@ body {
 
  /* ctn experiment */
  .cta {
-    background-color: #F49867;
+  background: rgb(174,103,250);
+  background: linear-gradient(9deg, rgba(174,103,250,1) 50%, rgba(244,152,103,1) 100%);
     color: #fff;
     display: flex;
     padding: 30px;
     margin-top: 20px;
  }
  .cta_text-container {
-    background-color: #F49867;
+
+   background: rgb(174,103,250);
+  /* 
+  background: linear-gradient(9deg, rgba(174,103,250,1) 50%, rgba(244,152,103,1) 100%); */
+  /* text; */
  }
- .cta_text-container p {
+ /* .cta_text-container p {
     color: #000;
-    background-color: #F49867;
- }
+    background: rgb(174,103,250);
+    background: linear-gradient(9deg, rgba(174,103,250,1) 50%, rgba(244,152,103,1) 100%);
+    
+ } */
+
+ /* .cta_text-container p {
+  
+     background: linear-gradient(#f49867, #ae67fa);
+     -webkit-background-clip: text;
+             background-clip: text;
+     -webkit-text-fill-color: transparent;
+      
+} */
+
+.cta_text-container p {
+  background: linear-gradient(to right, #f49867, #ae67fa);
+  background-clip: text;
+  color: transparent;
+}
+
+.cta_text-container p {
+color: #000;
+font-weight: bold;
+}
 
  .cta__button {
     color: white;
@@ -606,7 +663,9 @@ bottom: 10px;
  .last-text {
   color: white;
   margin-top: 150px;
-  margin-left: 400px;
+  /* margin-left: 400px; */
+  display: flex;
+  justify-content: center;
  }
   
     
@@ -622,7 +681,27 @@ bottom: 10px;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
 }
+
+
+.footer-header h1 {
+    background: linear-gradient(to right, #f49867, #ae67fa);
+    background-clip: text;
+    color: transparent;
   
+}
+
+@media screen and (max-width: 480px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+  
+
+@media screen and (max-width: 769px) {
+  .grid-container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 
 
    
